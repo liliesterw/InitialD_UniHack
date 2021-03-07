@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import LoginForm from './components/LoginForm/LoginForm';
-import RegistrationForm from './components/RegistrationForm/RegistrationForm';
-import Home from './components/Home/Home';
+import Header from './Components/Header/header';
+import LoginForm from './Components/LoginForm/LoginForm';
+import RegistrationForm from './Components/RegistrationForm/RegistrationForm';
+import Home from './Components/Home/home';
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import AlertComponent from './AlertComponent/AlertComponent';  
+import AlertComponent from './Components/AlertComponent/AlertComponent';  
 function App() {
   const [title, updateTitle] = useState(null);
   const [errorMessage, updateErrorMessage] = useState(null);

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import './RegistrationForm.css';
-import {API_BASE_URL} from '../../constants/apiContants';
+import {API_BASE_URL} from '../../constants/apiConstant';
 import { withRouter } from "react-router-dom";
 
 function RegistrationForm(props) {
