@@ -1,0 +1,12 @@
+,institution,address,lat,lon,count,total,food_items,food_str_items,dist,min_max_dist,perc_count,min_max_count,rank
+0,FareShare,"1-7 South Audley Street, Abbotsford VIC 3067",-37.810316,145.004056,2,5,"['Rice', 'Flour']","Rice,Flour",1,1.0,0.4,0.7499999999999999,1.4
+5,Foodbank,"4/2 Somerville Road, Yarraville VIC 3013",-37.814495,144.8999849,4,5,"['Rice', 'Flour', 'Rice', 'Long life milk and juice']","Rice,Flour,Rice,Long life milk and juice",9,0.5555555555555556,0.8,0.24999999999999994,1.3555555555555556
+7,Sacred Heart Mission,"433 Brunswick St, Fitzroy VIC 3065",-37.793949,144.979015,1,5,['Rice'],Rice,2,0.9444444444444444,0.2,1.0,1.1444444444444444
+9,Sacred Heart Mission,"806 Nicholson St, Fitzroy North, VIC",-37.780635,144.978277,1,5,['Rice'],Rice,3,0.8888888888888888,0.2,1.0,1.0888888888888888
+10,Sacred Heart Mission,"86 Riversdale Road (cnr Glenferrie Rd) Hawthorn, VIC",-37.828862,145.033917,1,5,['Rice'],Rice,4,0.8333333333333334,0.2,1.0,1.0333333333333334
+1,Sacred Heart Mission,"110 Commercial Road, Prahran, VIC",-37.846456,144.989833,1,5,['Rice'],Rice,5,0.7777777777777778,0.2,1.0,0.9777777777777779
+3,Sacred Heart Mission,"262 Chapel Street, Prahran, VIC",-37.849532,144.993927,1,5,['Rice'],Rice,5,0.7777777777777778,0.2,1.0,0.9777777777777779
+6,Sacred Heart Mission,"415 Inkerman Street, (cnr Hotham St) East St Kilda,VIC",-37.866588,144.999824,1,5,['Rice'],Rice,7,0.6666666666666666,0.2,1.0,0.8666666666666667
+8,Sacred Heart Mission,"486 Glen Huntly Road, Elsternwick, VIC",-37.885406,145.008445,1,5,['Rice'],Rice,9,0.5555555555555556,0.2,1.0,0.7555555555555555
+4,Sacred Heart Mission,"271 Centre Road (cnr Wheatley Rd), Bentleigh, VIC",-37.917298,145.032706,1,5,['Rice'],Rice,13,0.3333333333333333,0.2,1.0,0.5333333333333333
+2,Sacred Heart Mission,"261 Charman Road, Cheltenham, VIC",-37.96652,145.055282,1,5,['Rice'],Rice,19,0.0,0.2,1.0,0.2

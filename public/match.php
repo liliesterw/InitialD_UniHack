@@ -48,9 +48,7 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a href="index.html" class="navbar-brand">
-              <img src="img/logo.png" alt="" width="75px" height="75px">
-            </a>
+            <a href="index.html" class="navbar-brand"><img class="img-fulid" src="img/logo.png" width="135px" height="135px" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
               <i class="lnr lnr-menu"></i>
             </button>
@@ -77,98 +75,53 @@
       </nav>
     </header>
 
-<section id="portfolios" class="section">
-  <!-- Container Starts -->
-  <div class="container">
-    <div id="space" class="section-header">
-      <h2 class="section-title mt-4">Not yet donated</h2>
-      <hr class="lines">
-      <p class="section-subtitle">Press the 'donated' button if you have visited the food bank/charity and have donated! <br> Else, if you wish to cancel your donation, press cancel to canel the card.</p>
+    <div class="tinder">
+  <div class="tinder--status">
+    <i class="fa fa-remove"></i>
+    <i class="fa fa-heart"></i>
+  </div>
+
+  <div class="tinder--cards">
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/people">
+      <h3>Vic FoodBank</h3>
+      <p><b>3km</b></p>
+      <p><b>7/10 items matched!</b></p>
+      <p><b>List of items matched:</b></p>
+      <p>-tuna</p>
+      <p>-tissues</p>
+      <p>-etc..</p>
     </div>
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <!-- Horizontal Card One -->
-          <div class="card border rounded mb-1 mt-4">
-            <div class="d-flex">
-              <div class="horizontal-card-bg-img"></div>
-              <div class="flex-fill">
-                <div class="card-body">
-                  <h3>Fare Share</h3>
-                  <p style="font-size:1.5em">1-7 South Audley Street, Abbotsford VIC 3067 (1 KM)</p>
-                  <br>
-                  <p style="font-size:1.5em"><b>Donation List:</b></p>
-                   <p style="font-size:1.2em">Tuna, Milk</p>
-                  
-                </div>
-              </div>
-              <div class="horizontal-card-btn-container d-flex justify-content-center align-items-center">
-
-              </div>
-                <div class="card-footer bg-transparent" width=00px>
-                  <a class="filter btn btn-common active mt-10">
-                  Cancel
-                </a>
-                <a class="filter btn btn-common">
-                  DonateD
-                </a>
-                </div>
-            </div>
-          </div>
-
-  <!-- Container Ends -->
-</section>
-
-<section id="portfolios" class="section">
-  <!-- Container Starts -->
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Previously donated</h2>
-      <hr class="lines">
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/animals">
+      <h3>Demo card 2</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
     </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/nature">
+      <h3>Demo card 3</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/tech">
+      <h3>Demo card 4</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+    <div class="tinder--card">
+      <img src="https://placeimg.com/600/300/arch">
+      <h3>Demo card 5</h3>
+      <p>This is a demo for Tinder like swipe cards</p>
+    </div>
+  </div>
+
+  <div class="tinder--buttons">
+    <button id="nope"><i class="fa fa-remove"></i></button>
+    <button id="love"><i class="fa fa-heart"></i></button>
+  </div>
+</div>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <!-- Horizontal Card One -->
-          <div class="card border rounded mb-4 mt-4">
-            <div class="d-flex">
-              <div class="horizontal-card-bg-img"></div>
-              <div class="flex-fill">
-                <div class="card-body">
-                  <h3>Foodbank</h3>
-                  <p style="font-size:1.5em">4/2 Somerville Road, Yarraville VIC 3013 (9 KM)</p>
-                  <br>
-                  <p style="font-size:1.5em"><b>Donation List:</b></p>
-                   <p style="font-size:1.2em">Tuna, Milk, Canned Fruit, Rice</p>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="card border rounded mb-4 mt-4">
-            <div class="d-flex">
-              <div class="horizontal-card-bg-img"></div>
-              <div class="flex-fill">
-               <div class="card-body">
-                  <h3>Sacred Heart Mission</h3>
-                  <p style="font-size:1.5em">433 Brunswick St, Fitzroy VIC 3065 (2 KM)</p>
-                  <br>
-                  <p style="font-size:1.5em"><b>Donation List:</b></p>
-                   <p style="font-size:1.2em">Rice</p>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-  <!-- Container Ends -->
-</section>
 
 
 

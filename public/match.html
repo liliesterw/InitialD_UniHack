@@ -41,6 +41,20 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
+<style>
+  #map {
+  height: 250px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+#maps1 {
+  height: 250px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+  </style>
 <body>
 <header id="hero-area" data-stellar-background-ratio="0.5">
       <!-- Navbar Start -->
@@ -48,7 +62,7 @@
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <a href="index.html" class="navbar-brand"><img class="img-fulid" src="img/logo.png" width="135px" height="135px" alt=""></a>
+            <a href="index.html" class="navbar-brand"><img class="img-fulid" src="img/logo.png" width="75px" height="75px" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
               <i class="lnr lnr-menu"></i>
             </button>
@@ -82,36 +96,94 @@
   </div>
 
   <div class="tinder--cards">
-    <div class="tinder--card">
-      <img src="https://placeimg.com/600/300/people">
-      <h3>Vic FoodBank</h3>
-      <p><b>3km</b></p>
-      <p><b>7/10 items matched!</b></p>
-      <p><b>List of items matched:</b></p>
-      <p>-tuna</p>
-      <p>-tissues</p>
-      <p>-etc..</p>
-    </div>
-    <div class="tinder--card">
-      <img src="https://placeimg.com/600/300/animals">
-      <h3>Demo card 2</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
-    </div>
-    <div class="tinder--card">
-      <img src="https://placeimg.com/600/300/nature">
-      <h3>Demo card 3</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
-    </div>
-    <div class="tinder--card">
-      <img src="https://placeimg.com/600/300/tech">
-      <h3>Demo card 4</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
-    </div>
-    <div class="tinder--card">
-      <img src="https://placeimg.com/600/300/arch">
-      <h3>Demo card 5</h3>
-      <p>This is a demo for Tinder like swipe cards</p>
-    </div>
+<div class="tinder--card">
+<img src="img/abb.png" id = "maps1">
+<h3>FareShare</h3>
+<p>1-7 South Audley Street, Abbotsford VIC 3067 (1 KM)</p>
+<p><b>You can donate 2 items here: </b></p>
+<p>Tuna, Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/yara.png" id = "maps1">
+<h3>Foodbank</h3>
+<p>4/2 Somerville Road, Yarraville VIC 3013 (9 KM)</p>
+<p><b>You can donate 4 items here: </b></p>
+<p>Tuna, Milk, Canned Fruit, Rice</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/fitz.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>433 Brunswick St, Fitzroy VIC 3065 (2 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Rice</p>
+</div>
+
+<div class="tinder--card">
+<div id="map"></div>
+<h3>Sacred Heart Mission</h3>
+<p>806 Nicholson St, Fitzroy North, VIC (3 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/fitz.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>86 Riversdale Road (cnr Glenferrie Rd) Hawthorn, VIC (4 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/yara.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>110 Commercial Road, Prahran, VIC (5 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/abb.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>262 Chapel Street, Prahran, VIC (5 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/fitz.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>415 Inkerman Street, (cnr Hotham St) East St Kilda,VIC (7 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<img src="img/yara.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>486 Glen Huntly Road, Elsternwick, VIC (9 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p></p>
+</div>
+
+<div class="tinder--card">
+<img src="img/fitz.png" id = "maps1">
+<h3>Sacred Heart Mission</h3>
+<p>271 Centre Road (cnr Wheatley Rd), Bentleigh, VIC (13 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p>Milk</p>
+</div>
+
+<div class="tinder--card">
+<div id="map"></div>
+<h3>Sacred Heart Mission</h3>
+<p>261 Charman Road, Cheltenham, VIC (19 KM)</p>
+<p><b>You can donate 1 items here: </b></p>
+<p></p>
+</div>
+
   </div>
 
   <div class="tinder--buttons">
@@ -149,6 +221,22 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
+     <script>
+    function initMap() {
+  // The location of Uluru
+  const uluru = { lat:-37.828862, lng: 145.033917};
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 13,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+  </script>
 
 </body>
 
@@ -206,3 +294,9 @@
   </div>
 </footer>
 </html>
+
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJA2i0GRCZV3EweKSBfMggeLuP9iZ3zhA&callback=initMap"
+      async
+    ></script>
+
